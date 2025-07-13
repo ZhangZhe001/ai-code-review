@@ -27,6 +27,6 @@ jobs:
       - name: Run Code Review
         run: |
           cd ai-code-review-sdk/src/main/java
-          javac com.codez.ai.sdk.OpenAiCodeReview.java
-          java com.codez.ai.sdk.OpenAiCodeReview
+          javac com/codez/ai/sdk/OpenAiCodeReview.java
+          java com/codez/ai/sdk/OpenAiCodeReview
         
